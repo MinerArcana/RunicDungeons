@@ -14,8 +14,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 import javax.annotation.Nullable;
 
-public class InnerRealmDimension extends Dimension {
-    public InnerRealmDimension(World world, DimensionType type) {
+public class DungeonWorldDimension extends Dimension {
+    public DungeonWorldDimension(World world, DimensionType type) {
         super(world, type);
     }
 
